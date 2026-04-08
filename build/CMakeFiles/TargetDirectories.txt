@@ -1,0 +1,3 @@
+C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/build/CMakeFiles/meujogo_teste.dir
+C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/build/CMakeFiles/edit_cache.dir
+C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/build/CMakeFiles/rebuild_cache.dir
