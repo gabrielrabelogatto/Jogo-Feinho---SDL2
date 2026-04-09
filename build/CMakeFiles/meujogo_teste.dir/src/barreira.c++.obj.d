@@ -1,14 +1,14 @@
 CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: \
- C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\barreira.c++ \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/H/barreira.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_main.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_stdinc.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_config.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_platform.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/begin_code.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/close_code.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_config_windows.h \
+ C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\barreira.c++ \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/H/barreira.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_main.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_stdinc.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_config.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_platform.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/begin_code.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/close_code.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_config_windows.h \
  C:/msys64/ucrt64/include/winsdkver.h \
  C:/msys64/ucrt64/include/winapifamily.h \
  C:/msys64/ucrt64/include/sdkddkver.h \
@@ -24,20 +24,20 @@ CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_assert.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_atomic.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_audio.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_error.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_endian.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_mutex.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_thread.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_assert.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_atomic.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_audio.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_error.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_endian.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_mutex.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_thread.h \
  C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
  C:/msys64/ucrt64/include/sys/types.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_rwops.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_clipboard.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_cpuinfo.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_rwops.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_clipboard.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_cpuinfo.h \
  C:/msys64/ucrt64/include/intrin.h C:/msys64/ucrt64/include/setjmp.h \
  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
  C:/msys64/ucrt64/include/c++/15.2.0/stdlib.h \
@@ -174,39 +174,39 @@ CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cpuid.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_events.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_video.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_pixels.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_rect.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_surface.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_blendmode.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_keyboard.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_keycode.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_scancode.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_mouse.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_joystick.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_guid.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_gamecontroller.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_sensor.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_quit.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_gesture.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_touch.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_filesystem.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_haptic.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_hidapi.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_hints.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_loadso.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_log.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_messagebox.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_metal.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_power.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_render.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_shape.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_system.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_timer.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_version.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_locale.h \
- C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/extern/SDL2/include/SDL2/SDL_misc.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_events.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_video.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_pixels.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_rect.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_surface.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_blendmode.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_keyboard.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_keycode.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_scancode.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_mouse.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_joystick.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_guid.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_gamecontroller.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_sensor.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_quit.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_gesture.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_touch.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_filesystem.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_haptic.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_hidapi.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_hints.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_loadso.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_log.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_messagebox.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_metal.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_power.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_render.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_shape.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_system.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_timer.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_version.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_locale.h \
+ C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/extern/SDL2/include/SDL2/SDL_misc.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h \

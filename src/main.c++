@@ -1,7 +1,7 @@
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <iostream>
-#include <chrono>
 
 #include "./H/player.h"
 #include "./H/barreira.h"
@@ -11,6 +11,8 @@ int const SCREEN_HEIGHT = 700;
 
 SDL_Window* gWindow = NULL;
 SDL_Surface* gScreenSurface = NULL;
+
+Mix_Music* gMusica_Game = NULL;
 
 SDL_Surface* gSkinPlayer = NULL;
 SDL_Surface* gSkinBarreira = NULL;
@@ -40,6 +42,10 @@ int main(int argc, char** argv) {
             Uint32 tempoAnteriorVoltar = SDL_GetTicks();
             Uint32 tempoAtualVoltar;
 
+            if(gMusica_Game != NULL) {
+                Mix_PlayMusic(gMusica_Game, -1);
+            }
+
             while ( quit == false ) {
                 while ( SDL_PollEvent(&e) ) {
                     if ( e.type == SDL_QUIT ) {
@@ -68,10 +74,15 @@ int main(int argc, char** argv) {
 bool init() {
     bool success = true;
 
-    if ( SDL_Init(SDL_INIT_VIDEO) < 0 ) {
+    if ( SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO) < 0 ) {
         std::cout << "Erro SDL: " << SDL_GetError();
         success = false;
     } else {
+        if(Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0) {
+            std::cout << "Erro ao tentar inicializar o audio: " << SDL_GetError();
+            success = false;
+        }
+        
         gWindow = SDL_CreateWindow( "Jogo feinho", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
         
         if ( gWindow == NULL ) {
@@ -100,6 +111,12 @@ bool loadMedia() {
         success = false;
     }
 
+    gMusica_Game = Mix_LoadMUS("assets/Musica_Game.wav");
+    if(gMusica_Game == NULL) {
+        std::cout << "A musica 'assets/Musica_Game.wav' não foi encontrada. Erro do SDL2: " << SDL_GetError() << std::endl;
+        success = false;
+    }
+
     return success;
 }
 
@@ -114,9 +131,15 @@ bool close() {
         gSkinBarreira = NULL;
     }
 
+    if(gMusica_Game != NULL) {
+        Mix_FreeMusic(gMusica_Game);
+        gMusica_Game = NULL;
+    }
+
     SDL_DestroyWindow(gWindow);
     gWindow = NULL;
 
+    Mix_CloseAudio();
     SDL_Quit();
 
     return true;

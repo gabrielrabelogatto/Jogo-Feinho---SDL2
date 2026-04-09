@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Gabi\OneDrive\Documentos\Aprender_C++
+CMAKE_SOURCE_DIR = C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build
+CMAKE_BINARY_DIR = C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/meujogo_teste.dir/depend.make
@@ -73,48 +73,48 @@ CMakeFiles/meujogo_teste.dir/codegen:
 
 CMakeFiles/meujogo_teste.dir/src/main.c++.obj: CMakeFiles/meujogo_teste.dir/flags.make
 CMakeFiles/meujogo_teste.dir/src/main.c++.obj: CMakeFiles/meujogo_teste.dir/includes_CXX.rsp
-CMakeFiles/meujogo_teste.dir/src/main.c++.obj: C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/main.c++
+CMakeFiles/meujogo_teste.dir/src/main.c++.obj: C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/main.c++
 CMakeFiles/meujogo_teste.dir/src/main.c++.obj: CMakeFiles/meujogo_teste.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/meujogo_teste.dir/src/main.c++.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meujogo_teste.dir/src/main.c++.obj -MF CMakeFiles\meujogo_teste.dir\src\main.c++.obj.d -o CMakeFiles\meujogo_teste.dir\src\main.c++.obj -c C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\main.c++
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/meujogo_teste.dir/src/main.c++.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meujogo_teste.dir/src/main.c++.obj -MF CMakeFiles\meujogo_teste.dir\src\main.c++.obj.d -o CMakeFiles\meujogo_teste.dir\src\main.c++.obj -c C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\main.c++
 
 CMakeFiles/meujogo_teste.dir/src/main.c++.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/meujogo_teste.dir/src/main.c++.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\main.c++ > CMakeFiles\meujogo_teste.dir\src\main.c++.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\main.c++ > CMakeFiles\meujogo_teste.dir\src\main.c++.i
 
 CMakeFiles/meujogo_teste.dir/src/main.c++.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meujogo_teste.dir/src/main.c++.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\main.c++ -o CMakeFiles\meujogo_teste.dir\src\main.c++.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\main.c++ -o CMakeFiles\meujogo_teste.dir\src\main.c++.s
 
 CMakeFiles/meujogo_teste.dir/src/player.c++.obj: CMakeFiles/meujogo_teste.dir/flags.make
 CMakeFiles/meujogo_teste.dir/src/player.c++.obj: CMakeFiles/meujogo_teste.dir/includes_CXX.rsp
-CMakeFiles/meujogo_teste.dir/src/player.c++.obj: C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/player.c++
+CMakeFiles/meujogo_teste.dir/src/player.c++.obj: C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/player.c++
 CMakeFiles/meujogo_teste.dir/src/player.c++.obj: CMakeFiles/meujogo_teste.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/meujogo_teste.dir/src/player.c++.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meujogo_teste.dir/src/player.c++.obj -MF CMakeFiles\meujogo_teste.dir\src\player.c++.obj.d -o CMakeFiles\meujogo_teste.dir\src\player.c++.obj -c C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\player.c++
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/meujogo_teste.dir/src/player.c++.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meujogo_teste.dir/src/player.c++.obj -MF CMakeFiles\meujogo_teste.dir\src\player.c++.obj.d -o CMakeFiles\meujogo_teste.dir\src\player.c++.obj -c C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\player.c++
 
 CMakeFiles/meujogo_teste.dir/src/player.c++.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/meujogo_teste.dir/src/player.c++.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\player.c++ > CMakeFiles\meujogo_teste.dir\src\player.c++.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\player.c++ > CMakeFiles\meujogo_teste.dir\src\player.c++.i
 
 CMakeFiles/meujogo_teste.dir/src/player.c++.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meujogo_teste.dir/src/player.c++.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\player.c++ -o CMakeFiles\meujogo_teste.dir\src\player.c++.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\player.c++ -o CMakeFiles\meujogo_teste.dir\src\player.c++.s
 
 CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: CMakeFiles/meujogo_teste.dir/flags.make
 CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: CMakeFiles/meujogo_teste.dir/includes_CXX.rsp
-CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/barreira.c++
+CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/barreira.c++
 CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj: CMakeFiles/meujogo_teste.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj -MF CMakeFiles\meujogo_teste.dir\src\barreira.c++.obj.d -o CMakeFiles\meujogo_teste.dir\src\barreira.c++.obj -c C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\barreira.c++
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj -MF CMakeFiles\meujogo_teste.dir\src\barreira.c++.obj.d -o CMakeFiles\meujogo_teste.dir\src\barreira.c++.obj -c C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\barreira.c++
 
 CMakeFiles/meujogo_teste.dir/src/barreira.c++.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/meujogo_teste.dir/src/barreira.c++.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\barreira.c++ > CMakeFiles\meujogo_teste.dir\src\barreira.c++.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\barreira.c++ > CMakeFiles\meujogo_teste.dir\src\barreira.c++.i
 
 CMakeFiles/meujogo_teste.dir/src/barreira.c++.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meujogo_teste.dir/src/barreira.c++.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\src\barreira.c++ -o CMakeFiles\meujogo_teste.dir\src\barreira.c++.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\src\barreira.c++ -o CMakeFiles\meujogo_teste.dir\src\barreira.c++.s
 
 # Object files for target meujogo_teste
 meujogo_teste_OBJECTS = \
@@ -132,7 +132,7 @@ meujogo_teste.exe: CMakeFiles/meujogo_teste.dir/build.make
 meujogo_teste.exe: CMakeFiles/meujogo_teste.dir/linkLibs.rsp
 meujogo_teste.exe: CMakeFiles/meujogo_teste.dir/objects1.rsp
 meujogo_teste.exe: CMakeFiles/meujogo_teste.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable meujogo_teste.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable meujogo_teste.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\meujogo_teste.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles/meujogo_teste.dir/clean:
 .PHONY : CMakeFiles/meujogo_teste.dir/clean
 
 CMakeFiles/meujogo_teste.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Gabi\OneDrive\Documentos\Aprender_C++ C:\Users\Gabi\OneDrive\Documentos\Aprender_C++ C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build C:\Users\Gabi\OneDrive\Documentos\Aprender_C++\build\CMakeFiles\meujogo_teste.dir\DependInfo.cmake "--color=$(COLOR)" meujogo_teste
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build C:\Users\Gabi\OneDrive\Documentos\Jogo_Feinho\build\CMakeFiles\meujogo_teste.dir\DependInfo.cmake "--color=$(COLOR)" meujogo_teste
 .PHONY : CMakeFiles/meujogo_teste.dir/depend
 

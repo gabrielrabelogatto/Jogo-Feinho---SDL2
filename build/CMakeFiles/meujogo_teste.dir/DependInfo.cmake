@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/barreira.c++" "CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj" "gcc" "CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj.d"
-  "C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/main.c++" "CMakeFiles/meujogo_teste.dir/src/main.c++.obj" "gcc" "CMakeFiles/meujogo_teste.dir/src/main.c++.obj.d"
-  "C:/Users/Gabi/OneDrive/Documentos/Aprender_C++/src/player.c++" "CMakeFiles/meujogo_teste.dir/src/player.c++.obj" "gcc" "CMakeFiles/meujogo_teste.dir/src/player.c++.obj.d"
+  "C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/barreira.c++" "CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj" "gcc" "CMakeFiles/meujogo_teste.dir/src/barreira.c++.obj.d"
+  "C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/main.c++" "CMakeFiles/meujogo_teste.dir/src/main.c++.obj" "gcc" "CMakeFiles/meujogo_teste.dir/src/main.c++.obj.d"
+  "C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/src/player.c++" "CMakeFiles/meujogo_teste.dir/src/player.c++.obj" "gcc" "CMakeFiles/meujogo_teste.dir/src/player.c++.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
