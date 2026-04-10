@@ -1,7 +1,7 @@
 #include "./H/barreira.h"
 #include <iostream>
 
-Barreira::Barreira(float x_, int y_, SDL_Surface* skin_, int largura_, int altura_, float velocidade_, std::string urlSkin_) {
+Barreira::Barreira(float x_, int y_, SDL_Surface* skin_, int largura_, int altura_, float velocidade_, std::string urlSkin_, float y_segundo_) {
     this->x = x_;
     this->y = y_;
     this->skin = skin_;
@@ -10,13 +10,19 @@ Barreira::Barreira(float x_, int y_, SDL_Surface* skin_, int largura_, int altur
     this->velocidade = velocidade_;
     this->limite_voltar = x_;
     this->urlSkin = urlSkin_;
+    this->y_segundo = y_segundo_;
 };
 
 void Barreira::draw(SDL_Surface* dentro, int limite__) {
     limite = limite__;
     if (isVisible == true) {
-        SDL_Rect pos = { (int)x, y, largura, altura };
-        SDL_BlitScaled(skin, NULL, dentro, &pos);
+        if(sorteio == 0) {
+            SDL_Rect pos = { (int)x, y, largura, altura };
+            SDL_BlitScaled(skin, NULL, dentro, &pos);
+        } else if(sorteio == 1) {
+            SDL_Rect pos = { (int)x, y_segundo, largura, altura };
+            SDL_BlitScaled(skin, NULL, dentro, &pos);
+        }
     }
 };
 
@@ -29,6 +35,11 @@ void Barreira::aparecer(Uint32 intervalo, Uint32 tempoAtual, Uint32 &tempoAnteri
     }
     
     if(modo == "Ir") {
+        if(sorteou == false) {
+            sorteio = rand() % 2;
+            sorteou = true;
+        }
+
         tempoAtual = SDL_GetTicks();
 
         if(tempoAtual - tempoAnterior >= intervalo) {
@@ -72,6 +83,7 @@ void Barreira::aparecer(Uint32 intervalo, Uint32 tempoAtual, Uint32 &tempoAnteri
         auciliar_isMovie2 = true;
         auciliar_isMovie = false;
         isMovie_voltar = false;
+        sorteou = false;
 
         x = 1200.0f;
         modo = "Ir";

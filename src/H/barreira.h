@@ -2,11 +2,14 @@
 #define BARREIRA_H
 
 #include <SDL2/SDL.h>
+
 #include <string>
+#include <cstdlib>
 
 class Barreira {
     public:
-        int y, limite, largura, altura;
+        int y, limite, largura, altura, y_segundo, sorteio;
+        bool sorteou = false;
         float x, limite_voltar;
         
         SDL_Surface* skin;
@@ -25,7 +28,7 @@ class Barreira {
 
         float velocidade;
 
-        Barreira(float x_, int y_, SDL_Surface* skin_, int largura_, int altura_, float velocidade_, std::string urlSkin_);
+        Barreira(float x_, int y_, SDL_Surface* skin_, int largura_, int altura_, float velocidade_, std::string urlSkin_, float y_segundo_);
 
         void draw(SDL_Surface* dentro, int limite__);
         void aparecer(Uint32 intervalo, Uint32 tempoAtual, Uint32 &tempoAnterior, Uint32 intervaloVoltar, Uint32 tempoAtualVoltar, Uint32 &tempoAnteriorVoltar);

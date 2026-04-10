@@ -2,6 +2,7 @@
 #include <SDL2/SDL_mixer.h>
 
 #include <iostream>
+#include <ctime>
 
 #include "./H/player.h"
 #include "./H/barreira.h"
@@ -22,6 +23,8 @@ bool loadMedia();
 bool close();
 
 int main(int argc, char** argv) {
+    srand(time(0));
+
     if ( !init() ) {
         std::cout << "Falha ao tentar iniciar o programa";
     } else {
@@ -29,7 +32,7 @@ int main(int argc, char** argv) {
             std::cout << "Falha ao tentar carregar os assets do programa";
         } else {
             Player player(350, 250, gSkinPlayer, 200, 200);
-            Barreira barreira(1200.0f, 350, gSkinBarreira, 1200, 400, 3.5f, "assets/Barreira.bmp");
+            Barreira barreira(1200.0f, 350, gSkinBarreira, 1200, 400, 10.5f, "assets/Barreira.bmp", 0);
 
             SDL_Event e;
             bool quit = false;
