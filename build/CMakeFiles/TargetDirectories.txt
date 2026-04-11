@@ -1,3 +1,0 @@
-C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/build/CMakeFiles/meujogo_teste.dir
-C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/build/CMakeFiles/edit_cache.dir
-C:/Users/Gabi/OneDrive/Documentos/Jogo_Feinho/build/CMakeFiles/rebuild_cache.dir
