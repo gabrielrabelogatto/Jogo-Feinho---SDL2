@@ -3,9 +3,12 @@
 
 #include <iostream>
 #include <ctime>
+#include <vector>
+#include <any>
 
 #include "./H/player.h"
 #include "./H/barreira.h"
+#include "./H/timer.h"
 
 int const SCREEN_WIDTH = 1200;
 int const SCREEN_HEIGHT = 700;
@@ -17,6 +20,8 @@ Mix_Music* gMusica_Game = NULL;
 
 SDL_Surface* gSkinPlayer = NULL;
 SDL_Surface* gSkinBarreira = NULL;
+
+std::vector<std::any> gTimerTeste;
 
 bool init();
 bool loadMedia();
@@ -45,6 +50,9 @@ int main(int argc, char** argv) {
             Uint32 tempoAnteriorVoltar = SDL_GetTicks();
             Uint32 tempoAtualVoltar;
 
+            timer_config(&gTimerTeste, 10000, false);
+            timer_iniciarCronometro(&gTimerTeste);
+
             if(gMusica_Game != NULL) {
                 Mix_PlayMusic(gMusica_Game, -1);
             }
@@ -54,6 +62,10 @@ int main(int argc, char** argv) {
                     if ( e.type == SDL_QUIT ) {
                         quit = true;
                     }
+                }
+
+                if(timer_verificar(&gTimerTeste)) {
+                    std::cout << "Deu o tempo do timer.c++" << std::endl;
                 }
 
                 barreira.aparecer(intervalo, tempoAtual, tempoAnterior, intervaloVoltar, tempoAtualVoltar, tempoAnteriorVoltar);

@@ -6,7 +6,7 @@ include_directories(extern/SDL2/include)
 
 link_directories(extern/SDL2/lib)
 
-add_executable(meujogo_teste src/main.c++ src/player.c++ src/barreira.c++)
+add_executable(meujogo_teste src/main.c++ src/player.c++ src/barreira.c++ src/timer.c++)
 
 target_link_libraries(meujogo_teste mingw32 SDL2main SDL2 SDL2_mixer)
 
