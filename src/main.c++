@@ -9,6 +9,7 @@
 #include "./H/player.h"
 #include "./H/barreira.h"
 #include "./H/timer.h"
+#include "./H/magia_negra.h"
 
 int const SCREEN_WIDTH = 1200;
 int const SCREEN_HEIGHT = 700;
@@ -17,9 +18,7 @@ SDL_Window* gWindow = NULL;
 SDL_Surface* gScreenSurface = NULL;
 
 Mix_Music* gMusica_Game = NULL;
-
-SDL_Surface* gSkinPlayer = NULL;
-SDL_Surface* gSkinBarreira = NULL;
+SDL_Surface* gSkinPlayer, gSkinBarreira, gSkinMagia_Negra = NULL;
 
 std::vector<std::any> gTimerTeste;
 
@@ -38,6 +37,7 @@ int main(int argc, char** argv) {
         } else {
             Player player(350, 250, gSkinPlayer, 200, 200);
             Barreira barreira(1200.0f, 350, gSkinBarreira, 1200, 400, 10.5f, "assets/Barreira.bmp", 0);
+            Magia_Negra magia_negra(200, 200, 5, gSkinMagia_Negra, 100, 100);
 
             SDL_Event e;
             bool quit = false;
@@ -50,9 +50,6 @@ int main(int argc, char** argv) {
             Uint32 tempoAnteriorVoltar = SDL_GetTicks();
             Uint32 tempoAtualVoltar;
 
-            timer_config(&gTimerTeste, 10000, false);
-            timer_iniciarCronometro(&gTimerTeste);
-
             if(gMusica_Game != NULL) {
                 Mix_PlayMusic(gMusica_Game, -1);
             }
@@ -64,10 +61,6 @@ int main(int argc, char** argv) {
                     }
                 }
 
-                if(timer_verificar(&gTimerTeste)) {
-                    std::cout << "Deu o tempo do timer.c++" << std::endl;
-                }
-
                 barreira.aparecer(intervalo, tempoAtual, tempoAnterior, intervaloVoltar, tempoAtualVoltar, tempoAnteriorVoltar);
                 player.movimento(2.0f);
 
@@ -75,6 +68,7 @@ int main(int argc, char** argv) {
 
                 player.draw(gScreenSurface);
                 barreira.draw(gScreenSurface, 0);
+                magia_negra.draw(gScreenSurface)
                 
                 SDL_UpdateWindowSurface(gWindow);
                 SDL_Delay(16);
@@ -132,6 +126,12 @@ bool loadMedia() {
         success = false;
     }
 
+    gSkinMagia_Negra = SDL_LoadBMP("assets/Magia negra.bmp");
+    if(gSkinMagia_Negra == NULL) {
+        std::cout << "O asset 'assets/Magia negra.bmp' não foi encontrada. Erro do SDL2: " << SDL_GetError() << std::endl;
+        success = false;
+    }
+
     return success;
 }
 
@@ -149,6 +149,11 @@ bool close() {
     if(gMusica_Game != NULL) {
         Mix_FreeMusic(gMusica_Game);
         gMusica_Game = NULL;
+    }
+
+    if(gSkinMagia_Negra != NULL) {
+        SDL_FreeSurface(gSkinBarreira);
+        gSkinMagia_Negra = NULL;
     }
 
     SDL_DestroyWindow(gWindow);
