@@ -11,4 +11,6 @@ class Magia_Negra {
         Magia_Negra(int x_, int y_, int velocidade_, SDL_Surface* skin_, int largura_, int altura_);
 
         void draw(SDL_Surface* dentro);
-}
+};
+
+#endif

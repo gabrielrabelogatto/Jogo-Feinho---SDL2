@@ -9,7 +9,7 @@ Magia_Negra::Magia_Negra(int x_, int y_, int velocidade_, SDL_Surface* skin_, in
     this->altura = altura_;
 }
 
-void draw(SDL_Surface* dentro) {
+void Magia_Negra::draw(SDL_Surface* dentro) {
     SDL_Rect pos = {x, y, largura, altura};
     SDL_BlitScaled(skin, NULL, dentro, &pos);
 }

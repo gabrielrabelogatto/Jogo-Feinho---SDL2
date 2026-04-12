@@ -18,7 +18,9 @@ SDL_Window* gWindow = NULL;
 SDL_Surface* gScreenSurface = NULL;
 
 Mix_Music* gMusica_Game = NULL;
-SDL_Surface* gSkinPlayer, gSkinBarreira, gSkinMagia_Negra = NULL;
+SDL_Surface* gSkinPlayer = NULL;
+SDL_Surface* gSkinBarreira = NULL;
+SDL_Surface* gSkinMagia_Negra = NULL;
 
 std::vector<std::any> gTimerTeste;
 
@@ -68,7 +70,7 @@ int main(int argc, char** argv) {
 
                 player.draw(gScreenSurface);
                 barreira.draw(gScreenSurface, 0);
-                magia_negra.draw(gScreenSurface)
+                magia_negra.draw(gScreenSurface);
                 
                 SDL_UpdateWindowSurface(gWindow);
                 SDL_Delay(16);
