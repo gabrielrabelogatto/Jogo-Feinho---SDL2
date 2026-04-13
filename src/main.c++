@@ -22,11 +22,13 @@ SDL_Surface* gSkinPlayer = NULL;
 SDL_Surface* gSkinBarreira = NULL;
 SDL_Surface* gSkinMagia_Negra = NULL;
 
-std::vector<std::any> gTimerTeste;
+std::vector<std::any> gTimer_Spawn_MagiaNegra;
 
 bool init();
 bool loadMedia();
 bool close();
+
+void spawn_magiaNegra(Magia_Negra* gMagia_negra);
 
 int main(int argc, char** argv) {
     srand(time(0));
@@ -39,7 +41,7 @@ int main(int argc, char** argv) {
         } else {
             Player player(350, 250, gSkinPlayer, 200, 200);
             Barreira barreira(1200.0f, 350, gSkinBarreira, 1200, 400, 10.5f, "assets/Barreira.bmp", 0);
-            Magia_Negra magia_negra(200, 200, 5, gSkinMagia_Negra, 100, 100);
+            Magia_Negra gMagia_negra(5, gSkinMagia_Negra, 100, 100);
 
             SDL_Event e;
             bool quit = false;
@@ -51,6 +53,8 @@ int main(int argc, char** argv) {
             Uint32 intervaloVoltar = 3000;
             Uint32 tempoAnteriorVoltar = SDL_GetTicks();
             Uint32 tempoAtualVoltar;
+
+            timer_config(&gTimer_Spawn_MagiaNegra, 2000, true);
 
             if(gMusica_Game != NULL) {
                 Mix_PlayMusic(gMusica_Game, -1);
@@ -70,7 +74,8 @@ int main(int argc, char** argv) {
 
                 player.draw(gScreenSurface);
                 barreira.draw(gScreenSurface, 0);
-                magia_negra.draw(gScreenSurface);
+
+                spawn_magiaNegra(&gMagia_negra);
                 
                 SDL_UpdateWindowSurface(gWindow);
                 SDL_Delay(16);
@@ -165,4 +170,16 @@ bool close() {
     SDL_Quit();
 
     return true;
+}
+
+void spawn_magiaNegra(Magia_Negra* gMagia_negra) {
+    timer_iniciarCronometro(&gTimer_Spawn_MagiaNegra);
+
+    if(gMagia_negra->create == true) {
+        gMagia_negra->draw(gScreenSurface, 100, 100);
+    }
+
+    if(timer_verificar(&gTimer_Spawn_MagiaNegra)) {
+        gMagia_negra->create = true;
+    }
 }
